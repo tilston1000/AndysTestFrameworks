@@ -18,7 +18,7 @@ namespace POMFramework_keva61_.Tests
             Pages.Home.Login();
             Pages.Inventory.Logout();
 
-            Assert.IsTrue(Pages.Home.Map.LoginButton.Displayed);
+            Assert.That(Pages.Home.Map.LoginButton.Displayed);
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace POMFramework_keva61_.Tests
             Pages.Home.Login();
             Pages.Inventory.AddAllItemsToCart();
 
-            Assert.IsTrue(Pages.Inventory.Map.ShoppingCart.Text == "6");
+            Assert.That(Pages.Inventory.Map.ShoppingCart.Text == "6");
         }
 
     }

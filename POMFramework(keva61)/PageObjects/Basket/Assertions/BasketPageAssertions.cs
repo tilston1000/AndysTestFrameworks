@@ -15,7 +15,7 @@ namespace POMFramework_keva61_.PageObjects.Basket.Assertions
 
         internal void ValidateBasketHasOneItem()
         {
-            Assert.IsTrue(Pages.Basket.Map.ItemOneName.Text == "Sauce Labs Backpack");
+            Assert.That(Pages.Basket.Map.ItemOneName.Text == "Sauce Labs Backpack");
         }
 
         internal void ValidateBasketIsEmpty()

@@ -45,7 +45,7 @@ namespace POMFramework_keva61_.Tests
             Pages.Checkout.EnterDetails("Example", "User", "A123");
             Pages.Checkout.FinishCheckout();
 
-            Assert.IsTrue(Pages.Checkout.Map.PonyExpressImage.Displayed);
+            Assert.That(Pages.Checkout.Map.PonyExpressImage.Displayed);
         }
 
         [Test]
@@ -59,7 +59,7 @@ namespace POMFramework_keva61_.Tests
             Pages.Inventory.Logout();
             Pages.Home.Login();
 
-            Assert.IsTrue(Pages.Inventory.Map.ShoppingCart.Text == "1");
+            Assert.That(Pages.Inventory.Map.ShoppingCart.Text == "1");
         }
 
         [Test]
