@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POMFramework(DemoQA)", "AndysTestFrameworks\POMFramework(DemoQA).csproj", "{FC926171-09A8-44BA-9411-B20B61423327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POMFramework(keva61)", "POMFramework(keva61)\POMFramework(keva61).csproj", "{CFDF968F-C7F1-43AC-A681-A0234119A0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC926171-09A8-44BA-9411-B20B61423327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC926171-09A8-44BA-9411-B20B61423327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC926171-09A8-44BA-9411-B20B61423327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC926171-09A8-44BA-9411-B20B61423327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDF968F-C7F1-43AC-A681-A0234119A0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDF968F-C7F1-43AC-A681-A0234119A0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDF968F-C7F1-43AC-A681-A0234119A0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDF968F-C7F1-43AC-A681-A0234119A0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D605D358-D72D-4DC0-9387-56C5242FD45C}
+	EndGlobalSection
+EndGlobal
