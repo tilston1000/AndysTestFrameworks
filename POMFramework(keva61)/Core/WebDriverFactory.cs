@@ -4,6 +4,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+using WebDriverManager.Helpers;
 
 namespace POMFramework_keva61_.Core
 {
@@ -53,8 +54,8 @@ namespace POMFramework_keva61_.Core
         {
             var options = new ChromeOptions();
             options.AddArgument("--start-maximized");
-
-            new DriverManager().SetUpDriver(new ChromeConfig());
+            
+            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             return new ChromeDriver();
         }
     }
